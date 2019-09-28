@@ -1,7 +1,8 @@
 # Code your solution here!
 
 def get_random_num
-  rand(6) + 1.to_s
+  random_num = rand(6) + 1
+  random_num.to_s
 end 
 
 def get_user_input
