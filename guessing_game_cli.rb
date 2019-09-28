@@ -7,11 +7,15 @@ end
 def get_user_num
   user_num = gets
   user_num.chomp
+  user_num.to_i
 end 
 
 
 def run_guessing_game
-  random_num
-  user_num = gets
+  if random_num == get_user_num
+    puts "You guessed the correct number!"
+  else 
+    puts "Sorry! The c"
+  end 
   
 end 
