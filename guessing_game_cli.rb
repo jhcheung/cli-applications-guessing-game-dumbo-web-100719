@@ -4,8 +4,9 @@ def random_num
   rand(6) + 1
 end 
 
-def user_num
-  gets
+def get_user_num
+  user_num = gets
+  user_num.chomp
 end 
 
 
