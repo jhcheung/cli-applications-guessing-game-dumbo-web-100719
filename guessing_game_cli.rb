@@ -1,11 +1,11 @@
 # Code your solution here!
 
 def random_num
-  rand(1..6)
+  rand(6) + 1
 end 
 
 def user_num
-  
+  gets
 end 
 
 
